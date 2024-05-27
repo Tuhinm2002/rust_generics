@@ -1,0 +1,18 @@
+[package]
+name = "rust_ref_traits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "return_rust"
+path = "bin/return_rust.rs"
+
+[[bin]]
+name = "rust_duplicates"
+path = "bin/rust_duplicates.rs"
+
+[[bin]]
+name = "generic_dtype"
+path = "bin/generic_dtype.rs"
